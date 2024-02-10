@@ -1,0 +1,13 @@
+.shadow1 {
+  background: #00214770;
+  z-index: 3;
+  position: absolute !important;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  /* opacity: 9; */
+}
