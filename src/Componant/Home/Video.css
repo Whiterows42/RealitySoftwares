@@ -1,0 +1,29 @@
+.video {
+  margin: 10vw 0;
+  padding: 0 120px;
+}
+.info p {
+  white-space: 1px;
+}
+.info h2 {
+  position: relative;
+}
+.info h2::after {
+  position: absolute;
+  content: "";
+  height: 3px;
+  overflow: hidden;
+  min-width: 30vw;
+  background: orange;
+  margin-top: 20px;
+  bottom: -10px;
+  left: 10px;
+}
+.bgnavy {
+  background-color: #002147;
+}
+@media only screen and (max-width: 1000px) {
+  .video {
+    padding: 5px 0px;
+  }
+}

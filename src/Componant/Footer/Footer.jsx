@@ -3,7 +3,7 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <footer className="footer position-relative   parallax vw-100 ">
+    <footer className="footer position-relative   parallax w-100">
       <div className="container py-5  d-flex z-index  ">
         <div className="row">
           <div className="col-md-4 d-flex flex-column gap-5   ">
@@ -157,7 +157,7 @@ function Footer() {
                 <center>
                   {" "}
                   <h4>
-                    <div class="col-md-3">
+                    <div className="col-md-3">
                       <center>
                         {" "}
                         <h4 className="d-flex gap-2 ">

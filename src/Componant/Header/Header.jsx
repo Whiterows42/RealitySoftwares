@@ -124,7 +124,7 @@ function Header() {
                         aria-labelledby="navbarDropdown"
                       >
                         <li className="nav-item dropdown">
-                          <Link className="dropdown-item" href="#">
+                          <Link className="dropdown-item" >
                             FORN END
                           </Link>
                         </li>
@@ -176,43 +176,56 @@ function Header() {
                     </li>
 
                     <li className="nav-item">
-                      <Link
-                        className="nav-link active"
+                      <NavLink
+                        to={"gallary"}
+                        className={({ isActive }) =>
+                          `nav-link active ${
+                            isActive ? "text-warning " : "text-black"
+                          }`
+                        }
                         aria-current="page"
-                        href="#"
                       >
                         GALLARY
-                      </Link>
+                      </NavLink>
                     </li>
                     <li className="nav-item">
-                      <Link
-                        className="nav-link active"
+                      <NavLink
+                        to={"blog"}
+                        className={({ isActive }) =>
+                          `nav-link active ${
+                            isActive ? "text-warning " : "text-black"
+                          }`
+                        }
                         aria-current="page"
-                        href="#"
                       >
                         BLOGS
-                      </Link>
+                      </NavLink>
                     </li>
                     <li className="nav-item">
-                      <Link
-                        className="nav-link active"
+                      <NavLink
+                        to={"contact"}
+                        className={({ isActive }) =>
+                          `nav-link active ${
+                            isActive ? "text-warning " : "text-black"
+                          }`
+                        }
                         aria-current="page"
                         href="#"
                       >
                         CONTACT
-                      </Link>
+                      </NavLink>
                     </li>
                   </ul>
                 </div>
               </div>
             </nav>
           </div>
-          <Link className="navbar-brand forsmonly">
+          <NavLink to={"/"} className="navbar-brand forsmonly">
             <img
               src="https://riyalitysoftwares.com/assets/img/logo.png"
               alt=""
             />
-          </Link>
+          </NavLink>
         </div>
       </nav>
       <div className="liveChat position-fixed  ">

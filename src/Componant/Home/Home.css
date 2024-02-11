@@ -1,13 +1,89 @@
 .shadow1 {
   background: #00214770;
-  z-index: 3;
+  z-index: -1;
   position: absolute !important;
   top: 0;
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
   display: block;
   /* opacity: 9; */
+}
+.z-index-2 {
+  z-index: 0;
+}
+
+.textcaption {
+  position: absolute;
+  z-index: 1099;
+  display: flex;
+  justify-content: start;
+  /* flex-direction: column; */
+  color: white;
+  align-items: center;
+  height: 100vh;
+  top: 0;
+  width: 100vw;
+}
+.content1 {
+  display: flex;
+  align-items: start;
+  padding: 0 40px;
+  gap: 20px;
+  width: 50%;
+  flex-direction: column;
+}
+.content1 h5 {
+  font-weight: 900;
+  line-height: 1.2;
+  font-size: 40px;
+}
+.content1 p {
+  color: white;
+  font-size: 20px;
+}
+
+.content1 button {
+  padding: 10px 40px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: none;
+  letter-spacing: 1px;
+}
+.content1 button:nth-child(1) {
+  border: 2px white solid;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.Feautures {
+  height: 100%;
+  padding: 100px 0 !important;
+  font-size: 12px;
+}
+.about2 {
+  background: white;
+  padding: 50px 30px;
+  border-radius: 7px;
+  display: flex;
+  width: 100%;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 16px !important;
+}
+.about2 h4 {
+  font-weight: 700;
+  font-size: 16px !important;
+}
+.info a {
+  text-decoration: none;
+  color: gray;
+}
+@media only screen and (max-width: 800px) {
+  .content1 {
+    width: 100%;
+  }
 }

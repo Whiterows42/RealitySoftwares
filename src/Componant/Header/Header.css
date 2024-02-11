@@ -23,7 +23,9 @@ nav {
   animation: updown 3s infinite ease-in-out forwards;
   cursor: pointer;
 }
-
+.bgformd {
+  box-shadow: 0 0 2px white;
+}
 @keyframes updown {
   0% {
     transform: translateY(10px);
@@ -54,10 +56,10 @@ nav {
 .a:hover {
   color: orange;
 }
-.a{
-  color: inherit
+.a {
+  color: inherit;
 }
-.a:focus{
+.a:focus {
   color: orange;
 }
 @media only screen and (max-width: 1000px) {

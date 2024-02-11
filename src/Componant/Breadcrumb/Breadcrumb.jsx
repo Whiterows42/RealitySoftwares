@@ -1,5 +1,6 @@
 import React from "react";
 import "./Breadcrumb.css";
+import { Link,NavLink } from "react-router-dom";
 export default function Breadcrumb({ bg, title }) {
   return (
     <div className="vh-100 vw-100 ">
@@ -16,9 +17,9 @@ export default function Breadcrumb({ bg, title }) {
             <h1 className="text-center ">{title}</h1>
             <ul className="breadcrumb">
               <li>
-                <a className="text-white " href="index.php">
+                <Link className="text-white " to={"/"}>
                   <i className="fa fa-home"></i> Home
-                </a>
+                </Link>
               </li>
               <li className="active">{title}</li>
             </ul>
