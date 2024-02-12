@@ -122,10 +122,7 @@ function Home() {
             data-bs-target="#carouselExampleFade"
             data-bs-slide="prev"
           >
-            <span
-              className="carousel-control-prev-icon"
-              aria-hidden="true"
-            ></span>
+            <i className="fa fa-angle-left" aria-hidden="true"></i>
             <span className="visually-hidden">Previous</span>
           </button>
           <button
@@ -134,10 +131,7 @@ function Home() {
             data-bs-target="#carouselExampleFade"
             data-bs-slide="next"
           >
-            <span
-              className="carousel-control-next-icon"
-              aria-hidden="true"
-            ></span>
+            <i className="fa fa-angle-right fw-bold " aria-hidden="true"></i>
             <span className="visually-hidden">Next</span>
           </button>
         </div>

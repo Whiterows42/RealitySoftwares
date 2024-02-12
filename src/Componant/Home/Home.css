@@ -15,18 +15,18 @@
   z-index: 0;
 }
 .carousel-control-prev {
-  padding: 15px;
+  padding: 20px 25px;
   height: fit-content;
   border-radius: 50%;
   width: fit-content;
-  background-color: #2e4760;
+  background-color: #1e364f;
   top: 50%;
   left: -20%;
   transition: all 0.7s;
 }
 .carousel-control-next {
-  padding: 15px;
-  background-color: #2e4760;
+  padding: 20px 25px;
+  background-color: #1e364f;
   border-radius: 50%;
   width: fit-content;
   height: fit-content;
@@ -35,10 +35,10 @@
   transition: all 0.7s;
 }
 #carouselExampleFade:hover .carousel-control-prev {
-  left: 3%;
+  left: 1%;
 }
 #carouselExampleFade:hover .carousel-control-next {
-  right: 3%;
+  right: 1%;
 }
 .textcaption {
   position: absolute;
