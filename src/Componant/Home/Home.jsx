@@ -1,10 +1,10 @@
 import React from "react";
-import Footer from "../Footer/Footer";
-import Black from "./Black";
 import "./Video.css";
 import "./AnimationText.css";
 import "./Home.css";
+import "./funparallax.css";
 import Features from "./Features";
+import Courses from "../../Courses/Courses";
 function Home() {
   return (
     <>
@@ -188,6 +188,26 @@ function Home() {
                 />
               </div>
             </div>
+          </div>
+        </section>
+
+        <article>
+          <Courses />
+        </article>
+
+        <section>
+          <div className="fun factor funparallax w-100 vh-100 my-5 position-relative  ">
+            <div className="container z-1 text-white ">
+              <div className="row text-center ">
+                <div className="col-md-3 col-sm-6 ">
+                  <div className="funfact border ">
+                    <div className="icon"></div>
+                    <div className="info">ssfdfas</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="shadowblue"></div>
           </div>
         </section>
       </main>

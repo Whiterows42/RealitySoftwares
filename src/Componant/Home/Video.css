@@ -22,6 +22,31 @@
 .bgnavy {
   background-color: #002147;
 }
+.font-weight-bold {
+  font-weight: bold;
+  position: relative;
+}
+.font-weight-bold::after {
+  position: absolute;
+  content: "";
+  height: 4px;
+  width: 100px;
+  bottom: -20px;
+  left: 0px;
+  background: orange;
+}
+.Course-item {
+  box-shadow: 0px 0px 11px #7e7878;
+}
+.course-info h5 {
+  font-weight: bold;
+}
+.course-info p {
+  color: gray;
+  font-size: 15px;
+  line-height: 2;
+}
+
 @media only screen and (max-width: 1000px) {
   .video {
     padding: 5px 0px;

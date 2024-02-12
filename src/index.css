@@ -22,6 +22,18 @@ html {
   height: 100%;
 }
 
+.whitehover:hover {
+  color: white;
+  background-color: transparent;
+}
+.blackhover:hover {
+  color: black;
+  background-color: white;
+}
+.transparentWhite:hover{
+  color: black;
+  background: transparent;
+}
 @media (prefers-color-scheme: light) {
   :root {
     background-color: #ffffff;

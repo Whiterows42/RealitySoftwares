@@ -1,0 +1,27 @@
+.funparallax {
+  /* The image used */
+  background-image: url("https://riyalitysoftwares.com/assets/img/banner/12.jpg");
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+}
+.shadowblue {
+  background: #002147b3;
+  position: absolute;
+  content: "";
+  height: inherit;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+.factor {
+  padding: 120px 0px;
+}
