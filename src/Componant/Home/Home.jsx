@@ -8,12 +8,12 @@ import Courses from "../../Courses/Courses";
 function Home() {
   return (
     <>
-      <header className="position-relative w-100  border-2 border-warning    ">
+      <header className="position-relative w-100  border-2 border-warning ">
         <div
-          id="carouselExampleFade "
-          className="carousel slide  carousel-fade vw-90  "
+          id="carouselExampleFade"
+          className="carousel slide  carousel-fade"
           data-bs-ride="carousel"
-          // data-bs-touch="false"
+          data-bs-touch="false"
         >
           <div className="carousel-inner">
             <div className="carousel-item active " data-bs-interval="3000">
@@ -124,9 +124,6 @@ function Home() {
             <span className="visually-hidden">Next</span>
           </button>
         </div>
-
-        {/* <div className="shadow1"></div> */}
-        {/* <Black /> */}
       </header>
 
       <main>
