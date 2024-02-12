@@ -67,7 +67,7 @@ nav {
     display: block !important;
     position: fixed;
     top: 4px;
-    right: 75px;
+    right: 10px;
   }
   .goodone {
     display: flex;
@@ -87,8 +87,6 @@ nav {
     color: white;
   }
 
-  .manubutton {
-  }
   .container1 {
     display: inline-block;
     position: absolute;
@@ -105,6 +103,7 @@ nav {
     background-color: black;
     margin: 6px 0;
     transition: 0.4s;
+    border-radius: 10px;
   }
 
   .change .bar1 {

@@ -42,7 +42,7 @@ function Header() {
         className="navbar row fixed-top  border-1 z-1 manuBack bgformd"
         style={{ color: color.fg, backgroundColor: color.bg }}
       >
-        <div className="container-fluid goodone ">
+        <div className=" goodone ">
           <div className="logo onlyforlg">
             <Link to="/" className="navbar-brand  a">
               <img
@@ -124,9 +124,7 @@ function Header() {
                         aria-labelledby="navbarDropdown"
                       >
                         <li className="nav-item dropdown">
-                          <Link className="dropdown-item" >
-                            FORN END
-                          </Link>
+                          <Link className="dropdown-item">FORN END</Link>
                         </li>
                         <li>
                           <Link className="dropdown-item" href="#">

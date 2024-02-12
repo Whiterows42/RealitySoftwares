@@ -25,21 +25,28 @@ function Home() {
               />
 
               <div className="textcaption ">
-                <div className="content1">
-                  <h5 className="slide-in-top">
-                    Learn From Best
-                    <span className="text-warning "> Offline Training </span>
-                    Courses In Sangola
-                  </h5>
-                  <h5 className="slide-in-top">
-                    Call For More Details <br />
-                    <span className="text-warning ">+91 9359 971 953</span>
-                  </h5>
-                  <div className="btn gap-2 slide-in-bottom d-flex flex-md-row ">
-                    <button className="border-white">learn more</button>
-                    <button className="bg-warning whitehover ">
-                      View Courses
-                    </button>
+                <div className="content1 container ">
+                  <div className="row">
+                    <div className="col-md-8">
+                      <h5 className="slide-in-top">
+                        Learn From Best
+                        <span className="text-warning ">
+                          {" "}
+                          Offline Training{" "}
+                        </span>
+                        Courses In Sangola
+                      </h5>
+                      <h5 className="slide-in-top mt-3  ">
+                        Call For More Details <br />
+                        <span className="text-warning ">+91 9359 971 953</span>
+                      </h5>
+                      <div className="btn gap-2 slide-in-bottom d-flex flex-md-row ">
+                        <button className="border-white">learn more</button>
+                        <button className="bg-warning whitehover ">
+                          View Courses
+                        </button>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div className="shadow1"></div>
@@ -53,21 +60,26 @@ function Home() {
                 style={{ objectFit: "cover", height: "100vh", width: "100%" }}
               />
               <div className="textcaption ">
-                <div className="content1">
-                  <h5 className="slide-in-top">
-                    We Provide <span className="text-warning ">Internship</span>
-                    And{" "}
-                    <span className="text-warning ">
-                      Internship Certificate
-                    </span>
-                    To Student
-                  </h5>
-                  <p className="slide-in-bottom">
-                    Discover our brilliant students who shine with their
-                    exceptional intellect, passion, and achievements, making us
-                    proud with their dedication and contributions to various
-                    fields of knowledge and innovation.
-                  </p>
+                <div className="content1 container ">
+                  <div className="row">
+                    <div className="col-md-8">
+                      <h5 className="slide-in-top">
+                        We Provide{" "}
+                        <span className="text-warning ">Internship</span>
+                        And{" "}
+                        <span className="text-warning ">
+                          Internship Certificate
+                        </span>
+                        To Student
+                      </h5>
+                      <p className="slide-in-bottom">
+                        Discover our brilliant students who shine with their
+                        exceptional intellect, passion, and achievements, making
+                        us proud with their dedication and contributions to
+                        various fields of knowledge and innovation.
+                      </p>
+                    </div>
+                  </div>
                 </div>
                 <div className="shadow1"></div>
               </div>
@@ -80,20 +92,25 @@ function Home() {
                 style={{ objectFit: "cover", height: "100vh", width: "100%" }}
               />
               <div className="textcaption ">
-                <div className="content1">
-                  <h5 className="slide-in-top">
-                    We Provide
-                    <span className="text-warning ">
-                      Experience And Course Completion Certificate
-                    </span>
-                    To Students
-                  </h5>
-                  <p className="slide-in-bottom">
-                    Join the best community where diverse minds unite, fostering
-                    collaboration, growth, and support. Experience a vibrant
-                    network of individuals driven by shared values, inspiring
-                    you to reach new heights and create lasting connections.
-                  </p>
+                <div className="content1 container ">
+                  <div className="row">
+                    <div className="col-md-8">
+                      <h5 className="slide-in-top">
+                        We Provide
+                        <span className="text-warning ">
+                          Experience And Course Completion Certificate
+                        </span>
+                        To Students
+                      </h5>
+                      <p className="slide-in-bottom">
+                        Join the best community where diverse minds unite,
+                        fostering collaboration, growth, and support. Experience
+                        a vibrant network of individuals driven by shared
+                        values, inspiring you to reach new heights and create
+                        lasting connections.
+                      </p>
+                    </div>
+                  </div>
                 </div>
                 <div className="shadow1"></div>
               </div>
