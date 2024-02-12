@@ -22,7 +22,7 @@ function Courses() {
             </div>
           </div>
 
-          <div className="row my-5 h-100  ">
+          <div className="row px-2  my-5 h-100  ">
             <PopularCourses
               thumb="https://riyalitysoftwares.com/assets/img/courses/frontend.jpg"
               heading=" FRONT END DEVELOPMENT"

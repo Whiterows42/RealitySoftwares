@@ -2,7 +2,7 @@ import React from "react";
 
 const PopularCourses = ({ thumb, heading, title, info, duration }) => {
   return (
-    <div className="col-md-4 col-sm-6 px-2 my-3 ">
+    <div className="col-md-4 col-sm-6  my-3 ">
       <div className="Course-item d-flex justify-content-center align-items-center  flex-column  ">
         <div className="card" style={{ width: "100%" }}>
           <img src={thumb} className="card-img-top " alt="..." />
