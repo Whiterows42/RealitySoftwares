@@ -36,10 +36,12 @@ function Home() {
                     <span className="text-warning ">+91 9359 971 953</span>
                   </h5>
                   <div className="btn gap-2 slide-in-bottom d-flex flex-md-row ">
-                    <button className="   border-white  bg-transparent ">
+                    <button className="   border-white">
                       learn more
                     </button>
-                    <button className="   bg-warning ">View Courses</button>
+                    <button className="   bg-warning whitehover ">
+                      View Courses
+                    </button>
                   </div>
                 </div>
                 <div className="shadow1"></div>
@@ -82,10 +84,10 @@ function Home() {
               <div className="textcaption ">
                 <div className="content1">
                   <h5 className="slide-in-top">
-                    We Provide{" "}
+                    We Provide
                     <span className="text-warning ">
                       Experience And Course Completion Certificate
-                    </span>{" "}
+                    </span>
                     To Students
                   </h5>
                   <p className="slide-in-bottom">
