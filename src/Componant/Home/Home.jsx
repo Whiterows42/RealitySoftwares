@@ -160,7 +160,7 @@ function Home() {
                 </p>
                 <a
                   href="#"
-                  className="btn btn-outline-dark border rounded-0 w-25  btn-md"
+                  className="btn btn-outline-dark rounded-0 w-25  btn-md"
                 >
                   Read More
                 </a>
