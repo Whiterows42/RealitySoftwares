@@ -14,7 +14,32 @@
 .z-index-2 {
   z-index: 0;
 }
-
+.carousel-control-prev {
+  padding: 20px;
+  height: fit-content;
+  border-radius: 50%;
+  width: fit-content;
+  background-color: #2e4760;
+  top: 50%;
+  left: -20%;
+  transition: all 0.7s;
+}
+.carousel-control-next {
+  padding: 20px;
+  background-color: #1a4876;
+  border-radius: 50%;
+  width: fit-content;
+  height: fit-content;
+  top: 50%;
+  right: -20%;
+  transition: all 0.7s;
+}
+#carouselExampleFade:hover .carousel-control-prev {
+  left: 5%;
+}
+#carouselExampleFade:hover .carousel-control-next {
+  right: 5%;
+}
 .textcaption {
   position: absolute;
   z-index: 1099;
@@ -29,7 +54,7 @@
 }
 .content1 {
   display: flex;
-  align-items: start;
+  align-items: end;
   padding: 0 40px;
   gap: 20px;
   width: 50%;
@@ -40,10 +65,12 @@
 .content1 h5 {
   font-weight: 900;
   line-height: 1.2;
+  align-self: flex-end;
   font-size: 40px;
 }
 .content1 p {
   color: white;
+  align-self: self-end;
   font-size: 20px;
 }
 
@@ -89,6 +116,9 @@
 .info a {
   text-decoration: none;
   color: gray;
+  width: fit-content;
+  border: 1px solid black;
+  outline: none;
 }
 @media only screen and (max-width: 800px) {
   .content1 {

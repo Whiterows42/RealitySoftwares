@@ -8,7 +8,7 @@ import Courses from "../../Courses/Courses";
 function Home() {
   return (
     <>
-      <header className="position-relative w-100  border-2 border-warning ">
+      <header className="position-relative w-100 overflow-hidden  border-2 border-warning ">
         <div
           id="carouselExampleFade"
           className="carousel slide  carousel-fade"
@@ -27,8 +27,8 @@ function Home() {
               <div className="textcaption ">
                 <div className="content1">
                   <h5 className="slide-in-top">
-                    Learn From Best{" "}
-                    <span className="text-warning "> Offline Training </span>{" "}
+                    Learn From Best
+                    <span className="text-warning "> Offline Training </span>
                     Courses In Sangola
                   </h5>
                   <h5 className="slide-in-top">
@@ -36,10 +36,8 @@ function Home() {
                     <span className="text-warning ">+91 9359 971 953</span>
                   </h5>
                   <div className="btn gap-2 slide-in-bottom d-flex flex-md-row ">
-                    <button className="   border-white">
-                      learn more
-                    </button>
-                    <button className="   bg-warning whitehover ">
+                    <button className="border-white">learn more</button>
+                    <button className="bg-warning whitehover ">
                       View Courses
                     </button>
                   </div>
@@ -157,10 +155,7 @@ function Home() {
                   best training programs tailored to meet the demands of today's
                   competitive job market.
                 </p>
-                <a
-                  href="#"
-                  className="btn btn-outline-dark rounded-0 w-25  btn-md"
-                >
+                <a href="#" className="btn btn-outline-dark rounded-0   btn-md">
                   Read More
                 </a>
               </div>
