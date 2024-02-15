@@ -120,6 +120,28 @@
   border: 1px solid black;
   outline: none;
 }
+input {
+  outline: none;
+  border: none;
+  padding: 5px 10px;
+  width: fit-content;
+}
+.reg-itmes1 {
+  background-color: #002147;
+}
+.siteheadingtext h2::after {
+  position: absolute;
+  content: "";
+  height: 3px;
+  width: 25%;
+  background-color: orange;
+  bottom: -20px;
+  left: 5px;
+}
+.hoverorange:hover {
+  color: orange;
+  background: none;
+}
 @media only screen and (max-width: 800px) {
   .content1 {
     width: 100%;

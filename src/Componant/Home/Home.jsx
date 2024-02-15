@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./Video.css";
 import "./AnimationText.css";
 import "./Home.css";
 import "./funparallax.css";
+import "./LangugeCarsoul.css";
 import Features from "./Features";
 import Courses from "../../Courses/Courses";
+import FunFact from "./FunFact";
+import Register from "./Register";
 function Home() {
   return (
     <>
@@ -201,20 +204,63 @@ function Home() {
         </article>
 
         <section>
-          <div className="fun factor funparallax w-100 vh-100 my-5 position-relative  ">
+          <div className="fun factor funparallax w-100 h-100 my-5 position-relative  ">
             <div className="container z-1 text-white ">
               <div className="row text-center ">
-                <div className="col-md-3 col-sm-6 ">
-                  <div className="funfact border ">
-                    <div className="icon"></div>
-                    <div className="info">ssfdfas</div>
-                  </div>
-                </div>
+                <FunFact
+                  icon="https://cdn-icons-png.flaticon.com/512/5545/5545080.png"
+                  title="batches completed"
+                  number="10"
+                />
+                <FunFact
+                  icon="https://cdn-icons-png.flaticon.com/512/2784/2784552.png"
+                  title="guest  Lecture"
+                  number="6"
+                />
+                <FunFact
+                  icon="https://cdn-icons-png.flaticon.com/512/2112/2112925.png"
+                  title="students enrolled"
+                  number="192"
+                />
+                <FunFact
+                  icon="https://cdn-icons-png.flaticon.com/512/4277/4277080.png"
+                  title="individual projects"
+                  number="112"
+                />
               </div>
             </div>
             <div className="shadowblue"></div>
           </div>
         </section>
+
+        <article>
+          <Register />
+        </article>
+
+        {/* <section style={{ padding: "30px 0", backgroundColor: "beige" }}>
+          <h2 className="section-heading text-center  text-capitalize fs-1">
+            Languages which we teach...
+          </h2>
+          <div className="scroller">
+            <ul className="img-list scroller__inner ">
+              <li>
+                <img
+                  src="https://riyalitysoftwares.com/assets/img/logos/1.png"
+                  alt=""
+                  width={100}
+                />
+              </li>
+              <li>
+                <img
+                  src="https://riyalitysoftwares.com/assets/img/logos/1.png"
+                  alt=""
+                  width={100}
+                />
+              </li>
+            </ul>
+          </div>
+        </section> */}
+
       </main>
     </>
   );

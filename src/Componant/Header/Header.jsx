@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./Header.css";
 import { Link, NavLink } from "react-router-dom";
+import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 
 function Header() {
   const [color, setColor] = useState({
@@ -107,37 +108,108 @@ function Header() {
                         ABOUT
                       </NavLink>
                     </li>
-
-                    <li className="nav-item dropdown">
-                      <NavLink
-                        className={() => `nav-link active`}
-                        href="#"
+                    <li className="nav-item">
+                      <NavDropdown
+                        title="COURSES"
+                        className="p-0"
                         id="navbarDropdown"
-                        role="button"
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false"
                       >
-                        COURSES
-                      </NavLink>
-                      <ul
-                        className="dropdown-menu"
-                        aria-labelledby="navbarDropdown"
-                      >
-                        <li className="nav-item dropdown">
-                          <Link className="dropdown-item">FORN END</Link>
-                        </li>
-                        <li>
-                          <Link className="dropdown-item" href="#">
-                            BACK END
-                          </Link>
-                        </li>
-                      </ul>
-                    </li>
+                        <NavDropdown
+                          title="Front End "
+                          id="frontEndLanguagesDropdown"
+                          className="dropend fw-normal  position-relative   "
+                        >
+                          <div className="">
+                            <Link
+                              className="dropdown-item hoverorange "
+                              to={"/course/html"}
+                            >
+                              HTML
+                            </Link>
 
+                            <Link
+                              className="dropdown-item hoverorange"
+                              to={"/course/css"}
+                            >
+                              CSS
+                            </Link>
+
+                            <Link
+                              className="dropdown-item hoverorange"
+                              to={"/course/bootstrap"}
+                            >
+                              BootStrap
+                            </Link>
+
+                            <Link
+                              className="dropdown-item hoverorange"
+                              to={"/course/template-modification"}
+                            >
+                              Template Modification
+                            </Link>
+
+                            <Link
+                              className="dropdown-item hoverorange"
+                              to={"/course/javascript"}
+                            >
+                              JavaScript
+                            </Link>
+
+                            <Link
+                              className="dropdown-item hoverorange"
+                              to={"/course/jQuery"}
+                            >
+                              JQuery
+                            </Link>
+
+                            <Link
+                              className="dropdown-item hoverorange"
+                              to={"/course/React"}
+                            >
+                              React js
+                            </Link>
+                          </div>
+                          {/* Add more language items as needed */}
+                        </NavDropdown>
+                        <div
+                          className="bg-secondary w-100  "
+                          style={{ height: "1px" }}
+                        ></div>
+                        <NavDropdown
+                          title="Back End "
+                          id="frontEndLanguagesDropdown"
+                          className="dropend fw-normal"
+                        >
+                          <Link
+                            className="dropdown-item hoverorange "
+                            to={"/course/java"}
+                          >
+                            Core Java
+                          </Link>
+                          <Link
+                            className="dropdown-item hoverorange"
+                            to={"/course/AdvJava"}
+                          >
+                            Advance Java
+                          </Link>
+                          <Link
+                            className="dropdown-item hoverorange"
+                            to={"/course/Frameworks"}
+                          >
+                            Frameworks
+                          </Link>
+                          <Link
+                            className="dropdown-item hoverorange"
+                            to={"/course/Database"}
+                          >
+                            Database
+                          </Link>
+                        </NavDropdown>
+                      </NavDropdown>
+                    </li>
                     <li className="nav-item dropdown">
                       <NavLink
                         className="nav-link dropdown-toggle"
-                        href="#"
                         id="navbarDropdown"
                         role="button"
                         data-bs-toggle="dropdown"
@@ -150,23 +222,26 @@ function Header() {
                         aria-labelledby="navbarDropdown"
                       >
                         <li className="nav-item dropdown">
-                          <Link className="dropdown-item" href="#">
+                          <Link
+                            className="dropdown-item hoverorange"
+                            to={"/course/sangolaofflineCourses"}
+                          >
                             Sangola Offline Training
                           </Link>
                         </li>
                         <li>
-                          <Link className="dropdown-item" href="#">
+                          <Link className="dropdown-item hoverorange" href="#">
                             Corporate Training
                           </Link>
                         </li>
 
                         <li>
-                          <Link className="dropdown-item" href="#">
+                          <Link className="dropdown-item hoverorange" href="#">
                             Guest Lecture
                           </Link>
                         </li>
                         <li>
-                          <Link className="dropdown-item" href="#">
+                          <Link className="dropdown-item hoverorange" href="#">
                             Collage Workshop
                           </Link>
                         </li>

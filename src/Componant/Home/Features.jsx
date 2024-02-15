@@ -9,7 +9,7 @@ export default function Features({ icon, title }) {
         </div>
         <div className="info">
           <h4>{title}</h4>
-          <a className="text-Secondary " href="#">
+          <a className="text-Secondary border-0 " href="#">
             Read More
           </a>
         </div>

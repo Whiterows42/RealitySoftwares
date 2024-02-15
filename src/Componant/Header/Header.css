@@ -7,12 +7,13 @@ ul li {
 }
 .goodone {
   display: flex;
-  justify-content: space-around;
-  padding: 0.43vw 8vw;
+  justify-content: space-between;
+  padding: 0.43vw 9vw;
   align-items: center;
 }
 nav {
   font-weight: bold;
+  transition: all 0.2s;
   /* color: white; */
 }
 .liveChat {

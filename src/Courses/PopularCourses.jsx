@@ -23,7 +23,7 @@ const PopularCourses = ({ thumb, heading, title, info, duration }) => {
             <ul className="text-capitalize d-flex justify-content-between  p-0 ">
               <li className="d-flex align-items-center gap-2 ">
                 <i
-                  class="fa fa-clock-o text-secondary"
+                  className="fa fa-clock-o text-secondary"
                   style={{ fontSize: "26px" }}
                 ></i>
                 {duration} month approx

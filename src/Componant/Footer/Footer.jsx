@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -37,24 +38,51 @@ function Footer() {
           <div className="col-md-2 col-sm-6 p-2  ">
             <div className="Aboutinfo   d-flex align-items-md-center     flex-column  ">
               <h4>Links</h4>
-              <ul className="orangehover">
+              <ul className="orangehover text-decoration-none ">
                 <li>
-                  <a href="index.php">Home</a>
+                  <Link className="text-decoration-none text-white  " to={"/"}>
+                    Home
+                  </Link>
                 </li>
                 <li>
-                  <a href="about-us.php">About US</a>
+                  <Link
+                    className="text-decoration-none text-white  "
+                    to={"about"}
+                  >
+                    About US
+                  </Link>
                 </li>
                 <li>
-                  <a href="courses.php">Courses</a>
+                  <Link
+                    className="text-decoration-none text-white  "
+                    to={"course"}
+                  >
+                    Courses
+                  </Link>
                 </li>
                 <li>
-                  <a href="post.php">Post</a>
+                  <Link
+                    className="text-decoration-none text-white  "
+                    href="post.php"
+                  >
+                    Post
+                  </Link>
                 </li>
                 <li>
-                  <a href="contact.php">Contact</a>
+                  <Link
+                    className="text-decoration-none text-white  "
+                    to={"contact"}
+                  >
+                    Contact
+                  </Link>
                 </li>
                 <li>
-                  <a href="gallery.php">Gallary</a>
+                  <Link
+                    className="text-decoration-none text-white  "
+                    to={"gallary"}
+                  >
+                    Gallary
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -66,22 +94,34 @@ function Footer() {
 
               <ul className="orangehover ">
                 <li>
-                  <a href="#">Documentation</a>
+                  <a className="text-decoration-none text-white  " href="#">
+                    Documentation
+                  </a>
                 </li>
                 <li>
-                  <a href="#">Forums</a>
+                  <a className="text-decoration-none text-white  " href="#">
+                    Forums
+                  </a>
                 </li>
                 <li>
-                  <a href="#">Language Packs</a>
+                  <a className="text-decoration-none text-white  " href="#">
+                    Language Packs
+                  </a>
                 </li>
                 <li>
-                  <a href="#">Release Status</a>
+                  <a className="text-decoration-none text-white  " href="#">
+                    Release Status
+                  </a>
                 </li>
                 <li>
-                  <a href="#">LearnPress</a>
+                  <a className="text-decoration-none text-white  " href="#">
+                    LearnPress
+                  </a>
                 </li>
                 <li>
-                  <a href="#">Feedback</a>
+                  <a className="text-decoration-none text-white  " href="#">
+                    Feedback
+                  </a>
                 </li>
               </ul>
             </div>
@@ -95,7 +135,10 @@ function Footer() {
                   <p>
                     Email
                     <span className="d-block ">
-                      <a href="mailto:riyality.software@gmail.com">
+                      <a
+                        className="text-decoration-none text-white  "
+                        href="mailto:riyality.software@gmail.com"
+                      >
                         riyality.software@gmail.com
                       </a>
                     </span>
@@ -134,10 +177,14 @@ function Footer() {
                 <center>
                   <ul className="d-flex justify-content-md-between  ">
                     <li>
-                      <a href="#">Terms of user</a>
+                      <a className="text-decoration-none text-white  " href="#">
+                        Terms of user
+                      </a>
                     </li>
                     <li>
-                      <a href="#">Support</a>
+                      <a className="text-decoration-none text-white  " href="#">
+                        Support
+                      </a>
                     </li>
                   </ul>
                 </center>
