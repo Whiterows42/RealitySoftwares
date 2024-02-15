@@ -2,12 +2,14 @@ import React from "react";
 
 function FrameWorks() {
   return (
-    <div>
+    <div className="d-flex justify-content-center vh-100  flex-column gap-5  align-items-center ">
       <img
-        className="d-flex vh-100 align-items-center justify-content-center  "
-        src="https://img.freepik.com/free-vector/hand-drawn-construction-background_23-2147734520.jpg?t=st=1707999313~exp=1707999913~hmac=52ff0bda795ea5ab310cf04c6d7b1bb9a2799fd5a42b56de4019a1794a466526"
+        className="img-fluid  "
+        src="https://media.istockphoto.com/id/886673480/vector/vector-illustration-in-trendy-flat-and-linear-style.jpg?s=612x612&w=0&k=20&c=n5MERl8ptN5OBxNQPCx35QfR1wS-eJYGA2KLLau5Kp4="
         alt=""
       />
+      <h1>Web Site Under Construction..</h1>
+      <h3>Get Well Back Soon</h3>
     </div>
   );
 }

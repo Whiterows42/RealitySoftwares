@@ -4,7 +4,7 @@ function DataBase() {
   return (
     <div className="d-flex vh-100 align-items-center justify-content-center ">
       <img
-        src="https://img.freepik.com/free-vector/hand-drawn-construction-background_23-2147734520.jpg?t=st=1707999313~exp=1707999913~hmac=52ff0bda795ea5ab310cf04c6d7b1bb9a2799fd5a42b56de4019a1794a466526"
+        src="https://media.istockphoto.com/id/1348157796/vector/website-under-construction-page-web-page-under-construction-website-under-maintenance-page.jpg?s=612x612&w=0&k=20&c=vJCWlc0t7pZY3b41LciyKsXQAtcDlMqzq2M7zOsl5rI="
         alt=""
       />
     </div>
