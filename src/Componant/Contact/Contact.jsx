@@ -12,7 +12,7 @@ function Contact() {
 
       <div className="d-flex justify-content-center align-items-center h-100   ">
         <img
-          className="my-5"
+          className="my-5 img-fluid "
           src="https://png.pngtree.com/png-clipart/20190925/original/pngtree-website-page-under-construction-vector-illustration-concept-png-image_4888926.jpg"
           alt=""
         />
