@@ -1,7 +1,7 @@
-import React from "react";
+import React, { memo } from "react";
 import Breadcrumb from "../Breadcrumb/Breadcrumb";
 
-export default function Gallary() {
+function Gallary() {
   const style = {
     bg: "https://riyalitysoftwares.com/assets/img/banner/12.jpg",
     title: "Gallary",
@@ -19,3 +19,4 @@ export default function Gallary() {
     </main>
   );
 }
+export default memo(Gallary);
