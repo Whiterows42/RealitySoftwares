@@ -9,7 +9,7 @@ export default function Breadcrumb({ bg, title }) {
   console.log(pathSegments);
 
   return (
-    <div className="w-100 position-relative  v-100 ">
+    <div className="w-100 position-relative  h-100 ">
       <div className="image">
         <img
           src={bg || "https://riyalitysoftwares.com/assets/img/banner/21.jpg"}

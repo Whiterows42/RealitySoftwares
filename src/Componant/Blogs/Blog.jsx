@@ -10,8 +10,8 @@ export default function Blog() {
     <main>
       <Breadcrumb bg={style.bg} title={style.title} />
       <div>
-        <div className="blog-entry py-4 px-5   row">
-          <div className="blog-image col-md-6 position-relative  ">
+        <div className="blog-entry py-4 px-5  w-100  row">
+          <div className="blog-image col-md-6   ">
             <div>
               <img
                 className="img-fluid rounded-3 "

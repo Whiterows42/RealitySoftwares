@@ -8,6 +8,7 @@ import Features from "./Features";
 import Courses from "../../Courses/Courses";
 import FunFact from "./FunFact";
 import Register from "./Register";
+import { Link } from "react-router-dom";
 function Home() {
   return (
     <>
@@ -45,9 +46,14 @@ function Home() {
                       </h5>
                       <div className="btn gap-2 slide-in-bottom d-flex flex-md-row ">
                         <button className="border-white">learn more</button>
-                        <button className="bg-warning whitehover ">
-                          View Courses
-                        </button>
+                        <Link
+                          className="text-decoration-none "
+                          to={"/course/sangolaofflineCourses"}
+                        >
+                          <button className="bg-warning border-0  bg-warning whitehover">
+                            View Courses
+                          </button>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -260,7 +266,6 @@ function Home() {
             </ul>
           </div>
         </section> */}
-
       </main>
     </>
   );
